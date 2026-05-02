@@ -17,6 +17,7 @@ class Solution {
         while(j < n){
             int freq = map.get(nums[j]);
             if(max < freq){
+                max = freq;
                 ans = nums[j];
             }
             j++;
